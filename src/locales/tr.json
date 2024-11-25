@@ -1,0 +1,64 @@
+{
+  "header": {
+    "home": "Ana Sayfa",
+    "transactions": "İşlemler",
+    "reports": "Raporlar",
+    "settings": "Ayarlar"
+  },
+  "form": {
+    "addIncomeExpense": "Gelir/Gider Ekle",
+    "description": "Açıklama",
+    "amount": "Tutar",
+    "date": "Tarih",
+    "type": "Tür",
+    "income": "Gelir",
+    "expense": "Gider",
+    "submit": "Ekle",
+    "datePlaceholder": "gg.aa.yyyy",
+    "dateTitle": "Lütfen gg.aa.yyyy formatında geçerli bir tarih girin.",
+    "invalidYear": "Yıl 1900 ile 2100 arasında olmalıdır.",
+    "selectCategory": "Kategori Seç",
+    "categoryOptions": {
+      "salary": "Maaş",
+      "investment": "Yatırım",
+      "gift": "Hediye",
+      "food": "Yemek",
+      "rent": "Kira",
+      "utilities": "Faturalar",
+      "entertainment": "Eğlence",
+      "transportation": "Ulaşım",
+      "healthcare": "Sağlık"
+    }
+  },
+  "transactions": {
+    "title": "İşlemler",
+    "all": "Tümü",
+    "income": "Gelir",
+    "expense": "Gider",
+    "nameBusiness": "Ad/İşletme",
+    "date": "Tarih",
+    "category": "Kategori",
+    "amount": "Tutar",
+    "status": "Durum",
+    "action": "Aksiyon",
+    "details": "Detaylar",
+    "noData": "Henüz işlem bulunmamaktadır.",
+    "startDate": "Başlangıç Tarihi",
+    "endDate": "Bitiş Tarihi",
+    "unknownCategory": "Bilinmeyen"
+  },
+  "reports": {
+    "title": "Raporlar",
+    "startDate": "Başlangıç Tarihi",
+    "endDate": "Bitiş Tarihi",
+    "categoryChartTitle": "Kategori Bazlı Harcamalar",
+    "incomeExpenseComparison": "Gelir-Gider Karşılaştırması",
+    "income": "Gelir",
+    "expense": "Gider"
+  },
+  "footer": {
+    "rights": "Tüm Hakları Saklıdır",
+    "projectFor": "Bu proje için geliştirilmiştir",
+    "developer": "Geliştirici"
+  }
+}

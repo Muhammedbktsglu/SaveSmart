@@ -1,0 +1,29 @@
+body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+header {
+  @apply shadow-md;
+}
+
+nav a {
+  @apply text-sm text-white hover:text-gray-300;
+}
+
+a.button {
+  @apply bg-white text-blue-600 font-semibold text-sm py-2 px-4 rounded-lg;
+}
+
+a.button:hover {
+  @apply bg-gray-100;
+}
+header {
+  width: 100%; /* Header'ı tam genişlik yap */
+  position: fixed; /* Sabit pozisyon */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Diğer öğelerin üstünde kalması için */
+  background: linear-gradient(to right, #1e40af, #2563eb); /* Gradient arka plan */
+  padding: 10px 20px; /* İçerik hizalaması */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+}
