@@ -1,42 +1,95 @@
-# SaveSmart
-Save Smart Web app
+# Save Smart - Personal Budget and Expense Tracking Application  
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Save Smart is developed as part of the **2N Tech Case Study** to address personal budgeting and expense tracking. The application enables users to add and categorize their income and expenses, set budget limits, and analyze financial data through interactive reports.  
 
-## Getting Started
+## Purpose  
 
-Install the dependencies
-npm install
+The primary objective of this project was to implement features defined in the case study while adhering to modern front-end development practices. The focus was on creating a responsive, user-friendly, and visually appealing application for managing finances effectively.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features Accomplished  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Completed Features  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Income and Expense Management**  
+  - Users can add income and expense transactions with descriptions, amounts, dates, and categories.  
+  - Categorization of expenses (e.g., Salary, Investment, Rent, Utilities).  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Interactive Reports**  
+  - Pie charts for category-based expenses.  
+  - Bar charts for comparing income vs. expenses.  
 
-## Learn More
+- **Multi-Language Support**  
+  - Support for English and Turkish languages.  
 
-To learn more about Next.js, take a look at the following resources:
+- **User Profiles**  
+  - Simulated user roles: `Admin`, `Moderator`, and `User`.  
+  - Profile pictures displayed in transactions and header.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Responsive Design**  
+  - Optimized for desktop, tablet, and mobile views.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Local Data Storage**  
+  - Transactions persist in `localStorage` for offline usability.  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## To Be Implemented (Pending Features)  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [ ] **Budget Limits and Warnings**  
+  - Allow users to set budget limits for categories.  
+  - Notify users when spending reaches 80% of the set limit.  
+
+- [ ] **Export Reports**  
+  - Enable users to export financial reports as PDFs.  
+
+- [ ] **Savings Suggestions**  
+  - Provide tips or suggestions for saving based on user spending patterns.  
+
+- [ ] **Dark Mode Support**  
+  - Enhance user experience with a dark mode theme toggle.  
+
+---
+
+## Technologies Used  
+
+- **Framework**: Next.js  
+- **State Management**: Context API  
+- **Styling**: Tailwind CSS  
+- **Data Storage**: Local Storage  
+- **Data Visualization**: Recharts  
+- **Date Handling**: `date-fns`  
+
+---
+
+## Getting Started  
+
+Follow the steps below to run the project locally:  
+
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/yourusername/save-smart.git  
+   cd save-smart  
+   ```  
+
+2. Install dependencies:  
+   ```bash  
+   npm install  
+   ```  
+
+3. Start the development server:  
+   ```bash  
+   npm run dev  
+   ```  
+
+4. Open your browser and visit:  
+   ```
+   http://localhost:3000  
+   ```  
+
+
+## Conclusion  
+
+Save Smart successfully fulfills many of the core requirements outlined in the 2N Tech Case Study. Further enhancements and pending features will ensure the application becomes even more robust and practical for everyday users.  
+
