@@ -1,0 +1,64 @@
+{
+  "header": {
+    "home": "Home",
+    "transactions": "Transactions",
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "form": {
+    "addIncomeExpense": "Add Income/Expense",
+    "description": "Description",
+    "amount": "Amount",
+    "date": "Date",
+    "type": "Type",
+    "income": "Income",
+    "expense": "Expense",
+    "submit": "Submit",
+    "datePlaceholder": "dd.mm.yyyy",
+    "dateTitle": "Please enter a valid date in the format dd.mm.yyyy.",
+    "invalidYear": "The year must be between 1900 and 2100.",
+    "selectCategory": "Select Category",
+    "categoryOptions": {
+      "salary": "Salary",
+      "investment": "Investment",
+      "gift": "Gift",
+      "food": "Food",
+      "rent": "Rent",
+      "utilities": "Utilities",
+      "entertainment": "Entertainment",
+      "transportation": "Transportation",
+      "healthcare": "Healthcare"
+    }
+  },
+  "transactions": {
+    "title": "Transactions",
+    "all": "All",
+    "income": "Income",
+    "expense": "Expense",
+    "nameBusiness": "Name/Business",
+    "date": "Date",
+    "category": "Category",
+    "amount": "Amount",
+    "status": "Status",
+    "action": "Action",
+    "details": "Details",
+    "noData": "No transactions found.",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "unknownCategory": "Unknown"
+  },
+  "reports": {
+    "title": "Reports",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "categoryChartTitle": "Category-Based Expenses",
+    "incomeExpenseComparison": "Income vs Expense Comparison",
+    "income": "Income",
+    "expense": "Expense"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "projectFor": "This project is developed for",
+    "developer": "Developer"
+  }
+}
